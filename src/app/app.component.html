@@ -1,0 +1,15 @@
+
+   <mat-toolbar color="primary">
+    <mat-toolbar-row>
+            <span class="title-center">
+        My bookstore application
+    </span>
+      </mat-toolbar-row>
+      <mat-toolbar-row>
+
+  <button mat-button [routerLink]="['/create']" color="Warn">Create</button>
+  <button mat-button [routerLink]="['/read']">Read</button>
+</mat-toolbar-row>
+ </mat-toolbar>
+ <img style="width:100%;" src="assets/img/books1.jpg">
+<router-outlet></router-outlet>
